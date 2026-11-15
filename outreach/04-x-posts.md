@@ -1,16 +1,26 @@
 X / Twitter 用の投稿セット
 
-======================================================================
-A. 英語（@XiaomiSupport 向け・本文 1 投目）
-======================================================================
-
-HyperOS bug: com.xiaomi.aiservice re-downloads the same AI model forever.
-DownloadProvider appends -1,-2… and never cleans up, so .taiyi files pile up
-(11.7 GB of identical copies on a stock 14T Pro). Turning "Wi-Fi auto update"
-OFF does not stop it. @XiaomiSupport @XiaomiJapan where do I send the logs?
+※ 1 投目に URL を入れると 280 字を超えるので、リンクは 2 投目（返信）に置く。
+   URL は長さ 23 字として数えられる点に注意。
 
 ======================================================================
-B. 日本語（@XiaomiJapan 向け・本文 1 投目）
+A. 英語 1 投目（@XiaomiSupport 向け）
+======================================================================
+
+HyperOS bug: com.xiaomi.aiservice re-downloads the same AI model over and over.
+DownloadProvider appends -1,-2… and never cleans up, so .taiyi files pile up —
+11.7 GB of identical copies on a stock 14T Pro. "Wi-Fi auto update" OFF does not
+stop it. @XiaomiSupport @XiaomiJapan where do I send the logs?
+
+======================================================================
+A2. 英語 2 投目（返信・リンク）
+======================================================================
+
+Full evidence (logs, ls -la, screenshot, cleanup script):
+github.com/drydeuterium/xiaomi-taiyi-problem
+
+======================================================================
+B. 日本語 1 投目（@XiaomiJapan 向け）
 ======================================================================
 
 HyperOS の不具合報告です。com.xiaomi.aiservice が同じ AI モデルを延々と再ダウンロードし、
@@ -19,7 +29,14 @@ DownloadProvider が -1, -2… と別名保存、後始末もされないため 
 @XiaomiSupport @XiaomiJapan ログの送付先を教えていただけませんか。
 
 ======================================================================
-C. スレッド 2 投目（英語・証拠）
+B2. 日本語 2 投目（返信・リンク）
+======================================================================
+
+証拠（ログ・ls -la・スクショ・掃除スクリプト）はこちらにまとめました。
+github.com/drydeuterium/xiaomi-taiyi-problem
+
+======================================================================
+C. スレッド 3 投目（英語・証拠の要点）
 ======================================================================
 
 What happens (logcat, stock ROM):
@@ -33,7 +50,7 @@ The delete step never runs for tag / wps / ai_search, so every retry creates
 tag_new-1.taiyi, tag_new-2.taiyi, ... (all byte-identical, md5 27605b3a…).
 
 ======================================================================
-D. スレッド 3 投目（英語・再現と依頼）
+D. スレッド 4 投目（英語・再現と依頼）
 ======================================================================
 
 Repro: Wi-Fi on + charging + idle (JobScheduler AIJobService#2001), or just using
@@ -47,7 +64,7 @@ the existing file instead of appending -N, and cap retries.
 E. 添付する画像
 ======================================================================
 
-  attachments/05_screenshot_model_settings.png
+  evidence/2026-11-15-model-settings-off.png
     「モデルを管理」で「Wi-Fiで自動アップデート」が OFF の実機画面（1220x2712）
     → 「設定で止められない」ことを一目で示せる
 
@@ -58,7 +75,7 @@ E. 添付する画像
 F. 投稿のコツ
 ======================================================================
 
- ・1 投目は「症状 + 数字 + 止められない事実 + 送付先の質問」だけ。技術詳細はスレッドに分割
+ ・1 投目は「症状 + 数字 + 止められない事実 + 送付先の質問」だけ。リンクと技術詳細は返信に分割
  ・@XiaomiSupport（英語）と @XiaomiJapan（日本語）を両方メンション
  ・DM は基本返らないので「公開リプライ → 相手が DM を求めてくる」形を狙う
  ・同じ内容を Xiaomi Community にも投稿しておくと、リプライで誘導しやすい

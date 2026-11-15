@@ -34,6 +34,9 @@ Xiaomi Japan カスタマーサービスセンター 御中
  正常時はインストール後にステージ済みファイルを削除する実装があるが、
  tag / wps / ai_search では削除されず、リトライのたびに複製が増える。
 
+■ 公開している技術資料（本メールと同内容）
+ https://github.com/drydeuterium/xiaomi-taiyi-problem
+
 ■ 添付
  技術詳細（端末情報・実測・ログ抜粋・スクリーンショット）を PDF 1 通にまとめました。
  本メールに添付しています（taiyi_report_ja.pdf / 4 ページ）。
@@ -42,4 +45,5 @@ Xiaomi Japan カスタマーサービスセンター 御中
 
 -- 
 （氏名）
+
 

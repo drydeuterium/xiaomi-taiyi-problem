@@ -4,6 +4,8 @@
 **ROM:** HyperOS OS3.0.4.0.WNNJPSB / Android 16
 **Affected:** `com.xiaomi.aiservice` 3.1.7_65de523_260111_exp (310067), `com.android.providers.downloads` 25.02.07.109
 
+**Full write-up, evidence and scripts:** https://github.com/drydeuterium/xiaomi-taiyi-problem
+
 ## Summary
 
 `com.xiaomi.aiservice` (Taiyi framework) keeps re-downloading the same AI resource package.
@@ -70,4 +72,5 @@ Happy to provide full logs (`adb logcat`, `dumpsys`) and a step-by-step capture 
 
 Xiaomi Japan support ticket: X26111541474 (they bounced it back to the carrier because it is a
 carrier model, although the affected components are Xiaomi system apps).
+
 
