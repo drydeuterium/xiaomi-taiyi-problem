@@ -1,0 +1,368 @@
+﻿Activity Resolver Table:
+  Non-Data Actions:
+      com.xiaomi.aiservice.PRIVACY_STATEMENT:
+        c5cfa04 com.xiaomi.aiservice/.settings.activity.PrivacyStatementActivity filter adbdbed
+          Action: "com.xiaomi.aiservice.PRIVACY_STATEMENT"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Schemes:
+      android_secret_code:
+        2ed0a22 com.xiaomi.aiservice/.BootReceiver filter cb1b270
+          Action: "android.provider.Telephony.SECRET_CODE"
+          Scheme: "android_secret_code"
+          Authority: "46463": -1
+
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        ea749e9 com.xiaomi.aiservice/androidx.profileinstaller.ProfileInstallReceiver filter 457859c
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        ea749e9 com.xiaomi.aiservice/androidx.profileinstaller.ProfileInstallReceiver filter 8f5a66e
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        ea749e9 com.xiaomi.aiservice/androidx.profileinstaller.ProfileInstallReceiver filter 61910f
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        ea749e9 com.xiaomi.aiservice/androidx.profileinstaller.ProfileInstallReceiver filter 6a19ba5
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        2ed0a22 com.xiaomi.aiservice/.BootReceiver filter 4fdcb3
+          Action: "android.intent.action.BOOT_COMPLETED"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.xiaomi.aiservice.multiprocess.FACECLUSTER:
+        fd58dcc com.xiaomi.aiservice/.multiprocess.FaceClusterService filter 6e9b815 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.FACECLUSTER"
+      com.xiaomi.aiservice.multiprocess.AUTOCROP:
+        a844182 com.xiaomi.aiservice/.multiprocess.AutoCropService filter 2d1b093 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.AUTOCROP"
+      com.xiaomi.aiservice.multiprocess.CARDRECOGNIZE:
+        bc728d0 com.xiaomi.aiservice/.multiprocess.CardRecognizeService filter 31bf0c9 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.CARDRECOGNIZE"
+      com.xiaomi.aiservice.multiprocess.CREATION:
+        d62f518 com.xiaomi.aiservice/.multiprocess.CreationService filter 25fdb71 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.CREATION"
+      com.xiaomi.aiservice.AI_CORE:
+        6d9bb7a com.xiaomi.aiservice/.core.AICoreService filter c302f2b permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.AI_CORE"
+      com.xiaomi.aiservice.multiprocess.TRANSLATE:
+        6d40f32 com.xiaomi.aiservice/.multiprocess.TranslateService filter 797e483 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.TRANSLATE"
+      com.xiaomi.aiservice.multiprocess.ASR:
+        3e29494 com.xiaomi.aiservice/.multiprocess.AsrService filter f368b3d permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.ASR"
+      com.xiaomi.aiservice.multiprocess.IQA:
+        8747eda com.xiaomi.aiservice/.multiprocess.IqaService filter edc9f0b permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.IQA"
+      com.xiaomi.aiservice.multiprocess.NER:
+        574ec34 com.xiaomi.aiservice/.multiprocess.NerService filter 6f89a5d permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.NER"
+      com.xiaomi.aiservice.multiprocess.NFC:
+        39e6600 com.xiaomi.aiservice/.multiprocess.NfcService filter 1859e39 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.NFC"
+      com.xiaomi.aiservice.multiprocess.OCR:
+        7d03fd2 com.xiaomi.aiservice/.multiprocess.OcrService filter 58958a3 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.OCR"
+      com.xiaomi.aiservice.multiprocess.PET:
+        be01fc com.xiaomi.aiservice/.multiprocess.PetService filter a69d085 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.PET"
+      com.xiaomi.aiservice.multiprocess.TAG:
+        ab8f3ce com.xiaomi.aiservice/.multiprocess.TagService filter a5cc2ef permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.TAG"
+      com.xiaomi.aiservice.multiprocess.WPS:
+        9e741e8 com.xiaomi.aiservice/.multiprocess.WpsService filter efbf001 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.WPS"
+      com.xiaomi.aiservice.multiprocess.OCREXP:
+        58e97a0 com.xiaomi.aiservice/.multiprocess.OcrExpService filter 5a97f59 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.OCREXP"
+      com.xiaomi.aiservice.multiprocess.PLUGIN:
+        fb81546 com.xiaomi.aiservice/.multiprocess.PluginService filter 2009307 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.PLUGIN"
+      com.xiaomi.aiservice.multiprocess.BERT:
+        c83e22c com.xiaomi.aiservice/.multiprocess.BertService filter d18e4f5 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.BERT"
+      com.xiaomi.aiservice.multiprocess.CLIP:
+        52fec7e com.xiaomi.aiservice/.multiprocess.ClipService filter 6ea45df permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.CLIP"
+      com.xiaomi.aiservice.multiprocess.VIDEOSEGMENT:
+        cd7f72a com.xiaomi.aiservice/.multiprocess.VideoSegmentService filter 9bf391b permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.VIDEOSEGMENT"
+      com.xiaomi.aiservice.multiprocess.AISEARCH:
+        3da528a com.xiaomi.aiservice/.multiprocess.AISearchService filter 9d760fb permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.AISEARCH"
+      com.xiaomi.aiservice.multiprocess.ICONISR:
+        fb3bab8 com.xiaomi.aiservice/.multiprocess.IconIsrService filter 4bac091 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.ICONISR"
+      com.xiaomi.aiservice.multiprocess.SEGMENT:
+        5ce871e com.xiaomi.aiservice/.multiprocess.SegmentService filter 54edbff permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.SEGMENT"
+      com.xiaomi.aiservice.multiprocess.AESTHETIC:
+        b45ca64 com.xiaomi.aiservice/.multiprocess.AestheticService filter db9d4cd permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.AESTHETIC"
+      com.xiaomi.aiservice.multiprocess.SUMMARY:
+        62baea6 com.xiaomi.aiservice/.multiprocess.SummaryService filter a3420e7 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.SUMMARY"
+      com.xiaomi.aiservice.DOWNLOAD:
+        5255f88 com.xiaomi.aiservice/.download.DownloadService filter f354d21 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.DOWNLOAD"
+      com.xiaomi.aiservice.multiprocess.WECHATPRIVACY:
+        b565bf6 com.xiaomi.aiservice/.multiprocess.WechatPrivacyService filter a0e4bf7 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.WECHATPRIVACY"
+      com.xiaomi.aiservice.multiprocess.STUB0:
+        2130d56 com.xiaomi.aiservice/.multiprocess.Stub0Service filter 6b111d7 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.STUB0"
+      com.xiaomi.aiservice.multiprocess.STUB1:
+        1e4ac4 com.xiaomi.aiservice/.multiprocess.Stub1Service filter f45bdad permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.STUB1"
+      com.xiaomi.aiservice.multiprocess.STUB2:
+        14aa8e2 com.xiaomi.aiservice/.multiprocess.Stub2Service filter d0af473 permission com.xiaomi.aiservice.permission.AI_ABILITY
+          Action: "com.xiaomi.aiservice.multiprocess.STUB2"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.xiaomi.aiservice.permission.AI_ABILITY] (5a4fd81):
+    sourcePackage=com.xiaomi.aiservice
+    uid=10428 gids=[] type=0 prot=normal
+    perm=PermissionInfo{5348d95 com.xiaomi.aiservice.permission.AI_ABILITY}
+    flags=0x0
+
+Permissions:
+  Permission [com.xiaomi.aiservice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (f436e26):
+    sourcePackage=com.xiaomi.aiservice
+    uid=10428 gids=[] type=0 prot=signature
+    perm=PermissionInfo{5dfca9b com.xiaomi.aiservice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  com.xiaomi.aiservice/androidx.startup.InitializationProvider:
+    Provider{94d33 com.xiaomi.aiservice/androidx.startup.InitializationProvider}
+  com.xiaomi.aiservice/.core.AICoreProvider:
+    Provider{7899b7a com.xiaomi.aiservice/.core.AICoreProvider}
+  com.xiaomi.aiservice/.datacenter.AIDataProvider:
+    Provider{39b1b0a com.xiaomi.aiservice/.datacenter.AIDataProvider}
+  com.xiaomi.aiservice/.download.DownloadProvider:
+    Provider{49a52c5 com.xiaomi.aiservice/.download.DownloadProvider}
+
+ContentProvider Authorities:
+  [com.xiaomi.aiservice.authority.data]:
+    Provider{39b1b0a com.xiaomi.aiservice/.datacenter.AIDataProvider}
+      applicationInfo=ApplicationInfo{2a9aa67 com.xiaomi.aiservice}
+  [com.xiaomi.aiservice.authority.open]:
+    Provider{7899b7a com.xiaomi.aiservice/.core.AICoreProvider}
+      applicationInfo=ApplicationInfo{6d32014 com.xiaomi.aiservice}
+  [com.xiaomi.aiservice.authority.download]:
+    Provider{49a52c5 com.xiaomi.aiservice/.download.DownloadProvider}
+      applicationInfo=ApplicationInfo{f22f0bd com.xiaomi.aiservice}
+  [com.xiaomi.aiservice.androidx-startup]:
+    Provider{94d33 com.xiaomi.aiservice/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{66846b2 com.xiaomi.aiservice}
+
+Key Set Manager:
+  [com.xiaomi.aiservice]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.xiaomi.aiservice] (97475e4):
+    appId=10428
+    pkg=Package{4d9da4d com.xiaomi.aiservice}
+    codePath=/product/priv-app/AIService
+    resourcePath=/product/priv-app/AIService
+    legacyNativeLibraryDir=/product/priv-app/AIService/lib
+    extractNativeLibs=false
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=310067 minSdk=33 targetSdk=36
+    minExtensionVersions=[]
+    versionName=3.1.7_65de523_260111_exp
+    hiddenApiEnforcementPolicy=0
+    usesNonSdkApi=true
+    isMiuiPreinstall=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    pageSizeCompat=0
+    queriesPackages=[com.xiaomi.aicr, com.xiaomi.aiservice]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      libSNPE.so
+      libxnn.so
+    usesOptionalNativeLibraries:
+      libcdsprpc.so
+      libOpenCL.so
+      libneuron_adapter_mgvi.so
+      libneuron_adapter.so
+      libneuron_runtime.so
+      libneuron_runtime.7.so
+      libneuron_runtime.8.so
+      libdmabufheap.so
+      libtflite_mtk.so
+      libtflite_mtk_vnd.so
+      libapuwareutils_v2.mtk.so
+      libneuronusdk_adapter.mtk.so
+    usesLibraryFiles:
+      libOpenCL.so
+      libneuron_runtime.so
+      libapuwareutils_v2.mtk.so
+      libneuronusdk_adapter.mtk.so
+    timeStamp=2009-01-01 09:00:00
+    lastUpdateTime=2026-03-27 10:48:51
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{5d39902 version:3, signatures:[cadb5830], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.xiaomi.aiservice.permission.AI_ABILITY: prot=normal
+      com.xiaomi.aiservice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.POST_NOTIFICATIONS
+      com.xiaomi.aiservice.permission.AI_ABILITY
+      com.xiaomi.aiservice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.FOREGROUND_SERVICE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.INTERNET
+      com.miui.securitycenter.permission.SYSTEM_PERMISSION_DECLARE
+      com.xiaomi.aicr.permission.OPEN_CAPABILITY_INTERFACE
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WAKE_LOCK
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      com.xiaomi.aiservice.permission.AI_ABILITY: granted=true
+      com.xiaomi.aiservice.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      com.miui.securitycenter.permission.SYSTEM_PERMISSION_DECLARE: granted=true
+      com.xiaomi.aicr.permission.OPEN_CAPABILITY_INTERFACE: granted=true
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=1292632 deDataInode=1290983 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.xiaomi.aiservice
+      firstInstallTime=2026-03-27 10:48:51
+      uninstallReason=0
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-MfkG.frro
+        /data/resource-cache/com.android.systemui-accent-4URE.frro
+        /data/resource-cache/com.android.systemui-dynamic-6Oi7.frro
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+    User 11: ceDataInode=1246046 deDataInode=1244426 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/11/com.xiaomi.aiservice
+      firstInstallTime=2026-06-23 16:00:17
+      uninstallReason=0
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-MfkG.frro
+        /data/resource-cache/com.android.systemui-accent-4URE.frro
+        /data/resource-cache/com.android.systemui-dynamic-6Oi7.frro
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    [com.android.keychain,com.xiaomi.aiasst.vision,com.miui.daemon,com.mediatek.atci.service,android,com.miui.qr,com.xiaomi.misettings,com.xiaomi.mtb,com.miui.notification,com.xiaomi.trustservice,com.android.provision,miui.systemui.plugin,com.miui.securitycenter,com.novatek.novavis,com.xiaomi.barrage,com.bsp.catchlog,com.android.localtransport,com.android.location.fused,com.xiaomi.touchservice,com.miui.bugreport,com.mediatek.location.lppe.main,com.miui.touchassistant,com.xiaomi.mirror,com.android.providers.settings,com.android.inputdevices,com.android.systemui,com.miui.powerkeeper,com.miui.aod,com.mediatek,com.android.settings,com.xiaomi.joyose,com.miui.misightservice,com.android.server.telecom,com.android.dynsystem,com.miui.screenrecorder,com.miui.audiomonitor,com.xiaomi.mi_connect_service,com.miui.securitycore,com.miui.cit,com.mediatek.voicecommand,com.android.DeviceAsWebcam]:
+      com.xiaomi.aiservice
+    com.xiaomi.aicr:
+      com.xiaomi.aiservice
+    com.miui.gallery:
+      com.xiaomi.aiservice
+    [com.miui.micloudsync,com.miui.cloudservice]:
+      com.xiaomi.aiservice
+    com.miui.screenshot:
+      com.xiaomi.aiservice
+    com.android.soundrecorder:
+      com.xiaomi.aiservice
+  queries via component:
+    com.miui.euicc:
+      com.xiaomi.aiservice
+    com.miui.weather2:
+      com.xiaomi.aiservice
+    jp.naver.line.android:
+      com.xiaomi.aiservice
+  queryable via interaction:
+    User 0:
+      [com.android.keychain,com.xiaomi.aiasst.vision,com.miui.daemon,com.mediatek.atci.service,android,com.miui.qr,com.xiaomi.misettings,com.xiaomi.mtb,com.miui.notification,com.xiaomi.trustservice,com.android.provision,miui.systemui.plugin,com.miui.securitycenter,com.novatek.novavis,com.xiaomi.barrage,com.bsp.catchlog,com.android.localtransport,com.android.location.fused,com.xiaomi.touchservice,com.miui.bugreport,com.mediatek.location.lppe.main,com.miui.touchassistant,com.xiaomi.mirror,com.android.providers.settings,com.android.inputdevices,com.android.systemui,com.miui.powerkeeper,com.miui.aod,com.mediatek,com.android.settings,com.xiaomi.joyose,com.miui.misightservice,com.android.server.telecom,com.android.dynsystem,com.miui.screenrecorder,com.miui.audiomonitor,com.xiaomi.mi_connect_service,com.miui.securitycore,com.miui.cit,com.mediatek.voicecommand,com.android.DeviceAsWebcam]:
+        com.xiaomi.aiservice
+      com.xiaomi.aicr:
+        com.xiaomi.aiservice
+      com.miui.analytics:
+        com.xiaomi.aiservice
+      com.xiaomi.aiservice:
+        [com.android.keychain,com.xiaomi.aiasst.vision,com.miui.daemon,com.mediatek.atci.service,android,com.miui.qr,com.xiaomi.misettings,com.xiaomi.mtb,com.miui.notification,com.xiaomi.trustservice,com.android.provision,miui.systemui.plugin,com.miui.securitycenter,com.novatek.novavis,com.xiaomi.barrage,com.bsp.catchlog,com.android.localtransport,com.android.location.fused,com.xiaomi.touchservice,com.miui.bugreport,com.mediatek.location.lppe.main,com.miui.touchassistant,com.xiaomi.mirror,com.android.providers.settings,com.android.inputdevices,com.android.systemui,com.miui.powerkeeper,com.miui.aod,com.mediatek,com.android.settings,com.xiaomi.joyose,com.miui.misightservice,com.android.server.telecom,com.android.dynsystem,com.miui.screenrecorder,com.miui.audiomonitor,com.xiaomi.mi_connect_service,com.miui.securitycore,com.miui.cit,com.mediatek.voicecommand,com.android.DeviceAsWebcam]
+        [com.android.providers.media,com.android.mtp,com.android.providers.downloads.ui,com.android.soundpicker,com.android.providers.downloads]
+        com.xiaomi.aicr
+    User 11:
+      [com.android.keychain,com.xiaomi.aiasst.vision,com.miui.daemon,com.mediatek.atci.service,android,com.miui.qr,com.xiaomi.misettings,com.xiaomi.mtb,com.miui.notification,com.xiaomi.trustservice,com.android.provision,miui.systemui.plugin,com.miui.securitycenter,com.novatek.novavis,com.xiaomi.barrage,com.bsp.catchlog,com.android.localtransport,com.android.location.fused,com.xiaomi.touchservice,com.miui.bugreport,com.mediatek.location.lppe.main,com.miui.touchassistant,com.xiaomi.mirror,com.android.providers.settings,com.android.inputdevices,com.android.systemui,com.miui.powerkeeper,com.miui.aod,com.mediatek,com.android.settings,com.xiaomi.joyose,com.miui.misightservice,com.android.server.telecom,com.android.dynsystem,com.miui.screenrecorder,com.miui.audiomonitor,com.xiaomi.mi_connect_service,com.miui.securitycore,com.miui.cit,com.mediatek.voicecommand,com.android.DeviceAsWebcam]:
+        com.xiaomi.aiservice
+      com.xiaomi.aicr:
+        com.xiaomi.aiservice
+      com.miui.analytics:
+        com.xiaomi.aiservice
+  queryable via uses-library:
+
+Dexopt state:
+  [com.xiaomi.aiservice]
+    path: /product/priv-app/AIService/AIService.apk
+      arm64: [status=speed-profile] [reason=ab-ota] [primary-abi]
+        [location is /data/dalvik-cache/arm64/product@priv-app@AIService@AIService.apk@classes.dex]
+    known secondary dex files:
+      /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ai_search_mtk/5/plugin-aisearch-aisearch_mtk-5.apk (public)
+        arm64: [status=verify] [reason=vdex] [primary-abi]
+          [location is /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ai_search_mtk/5/oat/arm64/plugin-aisearch-aisearch_mtk-5.vdex]
+        class loader context: =UnsupportedClassLoaderContext=
+      /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/framework_compat/5/plugin-framework-framework_compat-5.apk (public)
+        arm64: [status=verify] [reason=vdex] [primary-abi]
+          [location is /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/framework_compat/5/oat/arm64/plugin-framework-framework_compat-5.vdex]
+        class loader context: =UnsupportedClassLoaderContext=
+      /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/iqa/1/plugin-iqa-iqa-1.apk (public)
+        arm64: [status=verify] [reason=vdex] [primary-abi]
+          [location is /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/iqa/1/oat/arm64/plugin-iqa-iqa-1.vdex]
+        class loader context: =UnsupportedClassLoaderContext=
+        used by other apps: [com.xiaomi.aicr (isa=arm64)]
+      /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ocr_plugin_baidu/2/plugin-ocr-ocr_baidu-1.apk (public)
+        arm64: [status=verify] [reason=vdex] [primary-abi]
+          [location is /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ocr_plugin_baidu/2/oat/arm64/plugin-ocr-ocr_baidu-1.vdex]
+        class loader context: =UnsupportedClassLoaderContext=
+      /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ocr_qnn/1/plugin-ocr-ocr_qnn-1.apk (public)
+        arm64: [status=verify] [reason=vdex] [primary-abi]
+          [location is /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ocr_qnn/1/oat/arm64/plugin-ocr-ocr_qnn-1.vdex]
+        class loader context: =UnsupportedClassLoaderContext=
+      /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/segment_v3_npu/3/plugin-segment-segment_v3_npu-3.apk (public)
+        arm64: [status=verify] [reason=vdex] [primary-abi]
+          [location is /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/segment_v3_npu/3/oat/arm64/plugin-segment-segment_v3_npu-3.vdex]
+        class loader context: =UnsupportedClassLoaderContext=
+      /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/tag/2/plugin-tag-tag-2.apk (removed)
+        arm64: [status=unknown] [reason=unknown] [primary-abi]
+          [location is error]
+        class loader context: =UnsupportedClassLoaderContext=
+      /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/tag/7/plugin-tag-tag-2.apk (public)
+        arm64: [status=run-from-apk] [reason=unknown] [primary-abi]
+          [location is error]
+        class loader context: =UnsupportedClassLoaderContext=
+    base APK odex file size: product@priv-app@AIService@AIService.apk@classes.art: 457Kb product@priv-app@AIService@AIService.apk@classes.dex: 2028Kb product@priv-app@AIService@AIService.apk@classes.vdex: 116Kb 
+
+Compiler stats:
+  [com.xiaomi.aiservice]
+    (No recorded stats)

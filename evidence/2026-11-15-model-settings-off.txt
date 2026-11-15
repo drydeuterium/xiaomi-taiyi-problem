@@ -1,0 +1,21 @@
+「Wi-Fiで自動アップデート」が OFF であることの証明（uiautomator ダンプ / 2026-11-15 10:17 取得）
+取得コマンド: adb shell uiautomator dump /sdcard/ui.xml
+アクティビティ: com.xiaomi.aicr/.common.download.ModelActivity （「モデルを管理」画面）
+
+--- 画面上のテキスト ---
+Wi-Fiで自動アップデート
+温度、システム状態、その他の要因に基づいて適切なタイミングでアップデート
+モデルを管理
+
+--- アクセシビリティ説明（読み上げ内容）---
+オフ。Wi-Fiで自動アップデート，温度、システム状態、その他の要因に基づいて適切なタイミングでアップデート。
+戻る
+
+--- スイッチ行のノード ---
+<node index="1" text="" resource-id="com.xiaomi.aicr:id/wlan_auto_download" class="android.widget.FrameLayout" package="com.xiaomi.aicr" content-desc="オフ。Wi-Fiで自動アップデート，温度、システム状態、その他の要因に基づいて適切なタイミングでアップデート。" checkable="false" checked="false" clickable="true" enabled="true" focusable="true" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[33,1087][1187,1338]" drawing-order="3" hint="">
+
+--- スイッチ本体（checkable=true / checked=false）---
+<node NAF="true" index="2" text="" resource-id="com.xiaomi.aicr:id/check_slidingSwitch" class="android.widget.Switch" package="com.xiaomi.aicr" content-desc="" checkable="true" checked="false" clickable="true" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" bounds="[1008,1168][1143,1257]" drawing-order="4" hint="" />
+
+※ checked="false" = OFF。この状態でも .taiyi の増加が発生した（2026-10-19 / 10-24 / 10-30）
+※ 設定キー: ai_llm_wlan_auto_download_status （com.xiaomi.aicr と com.xiaomi.aiservice の dex にのみ存在）

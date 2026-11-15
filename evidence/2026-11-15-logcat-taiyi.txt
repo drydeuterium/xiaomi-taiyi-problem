@@ -1,0 +1,131 @@
+11-15 01:02:01.804  1821  2043 I am_proc_start: [0,31366,10428,com.xiaomi.aiservice,content provider,{com.xiaomi.aiservice/com.xiaomi.aiservice.core.AICoreProvider}]
+11-15 01:02:01.911  1821  4038 I am_proc_bound: [0,31366,com.xiaomi.aiservice]
+11-15 01:51:01.923  1821  2036 I am_pss  : [31366,10428,com.xiaomi.aiservice,15827968,11825152,3139584,100765696,2,19,12]
+11-15 01:59:59.509  1821  2036 I am_pss  : [31366,10428,com.xiaomi.aiservice,15764480,11821056,3127296,100646912,0,19,9]
+11-15 04:51:40.749  1821  2036 I am_pss  : [31366,10428,com.xiaomi.aiservice,12525568,8761344,3041280,97746944,2,19,10]
+11-15 07:52:04.430  1821  2036 I am_pss  : [31366,10428,com.xiaomi.aiservice,12500992,7831552,3971072,96800768,2,19,10]
+11-15 10:04:54.678  1821  2072 I am_cpu  : [31366,10428,iaomi.aiservice,302702,20,150]
+11-15 10:04:55.203  1821  2077 I ActivityManager: Killing 31366:com.xiaomi.aiservice/u0a428 (adj 965): normal_mem_pressure
+11-15 10:04:55.203  1821  2077 I ActivityManager: note: ProcessRecord{299cb8 31366:com.xiaomi.aiservice/u0a428} is being killed, reason: OTHER KILLS BY SYSTEM, sub-reason: UNKNOWN, message: normal_mem_pressure
+11-15 10:04:55.203  1821  2077 I am_kill : [0,31366,com.xiaomi.aiservice,965,normal_mem_pressure,84092]
+11-15 10:04:55.203  1821  2077 I [80800] : spckill:#KillProc n:com.xiaomi.aiservice(31366) u:10428 t:1794704695203 pri:-1083797710 pss:9623 r:normal_mem_pressure
+11-15 10:04:55.204  1821  2077 I [90908] : [kill ki|0|-1107296256|67|17|10|0|6|153600|134116|128876] [com.xiaomi.aiservice|10428|31366|965|-1073797710|12208|3878|9623|true|false] [19484|4234612|3694568|2233692|8507344|1008|2147483647]
+11-15 10:04:55.392  1821  3368 I am_proc_died: [0,31366,com.xiaomi.aiservice,965,19]
+11-15 10:04:55.393  1821  3368 I ActivityManager: note: ProcessRecord{299cb8 31366:com.xiaomi.aiservice/u0a428} died, saving the exit info
+11-15 10:04:55.393  1821  2047 I ActivityManager: Update process exit info for com.xiaomi.aiservice(31366/u10428)
+11-15 10:05:12.049  1821  5010 W ActivityManager: Unable to start service Intent { xflg=0x4 pkg=com.miui.securitycenter cmp=com.miui.securitycenter/com.miui.apppredict.service.AiService } U=0: not found
+11-15 10:05:17.606  1821  3286 D MiuiEmbeddingWindow: blacklistedAppRunningOnPhone: package=com.xiaomi.aiserviceisNotProjeciton=true isHavingJeppackDisabledConfig=false isRunningOnPhone=true isAppleConnection=false
+11-15 10:05:17.606  1821  3286 D MiuiEmbeddingWindow: MiuiEmbeddingWindowService: updateApplicationInfo for com.xiaomi.aiservice, blacklistedAppRunningOnPhone updated: clear
+11-15 10:05:17.607  1821  3286 I ActivityManager: Posting procStart msg for 0:com.xiaomi.aiservice/u0a428
+11-15 10:05:17.607  1821  3286 D ContentProviderHelper: Logging provider access for com.xiaomi.aiservice, stopped=false, firstLaunch=false
+11-15 10:05:17.622  1821  2043 I am_proc_start: [0,17902,10428,com.xiaomi.aiservice,content provider,{com.xiaomi.aiservice/com.xiaomi.aiservice.core.AICoreProvider}]
+11-15 10:05:17.623  1821  2043 I ActivityManager: Start proc 17902:com.xiaomi.aiservice/u0a428 for content provider {com.xiaomi.aiservice/com.xiaomi.aiservice.core.AICoreProvider} caller=com.xiaomi.aicr
+11-15 10:05:17.641  1821  6862 D MiuiForceVkService: shouldUseVk, pkg=com.xiaomi.aiservice useVk 0
+11-15 10:05:17.645  1821  4061 I am_proc_bound: [0,17902,com.xiaomi.aiservice]
+11-15 10:05:17.645  1821  4061 I SmartPower: com.xiaomi.aiservice/10428(17902): died->background(22442ms) R(process start ) adj=-10000.
+11-15 10:05:17.671 17902 17924 D ActivityThread: the event that target app starts is : AppLaunchEvent{mType='441', mProcessName='com.xiaomi.aiservice', mPackageName='com.xiaomi.aiservice', mIsMainProcess='true', mVersionCode='310067', mVersionName='', mLaunchTime='2026-11-15'}
+11-15 10:05:19.905  1821  6915 D MiuiEmbeddingWindow: blacklistedAppRunningOnPhone: package=com.xiaomi.aiserviceisNotProjeciton=true isHavingJeppackDisabledConfig=false isRunningOnPhone=true isAppleConnection=false
+11-15 10:05:19.905  1821  6915 D MiuiEmbeddingWindow: MiuiEmbeddingWindowService: updateApplicationInfo for com.xiaomi.aiservice, blacklistedAppRunningOnPhone updated: clear
+11-15 10:05:19.906  1821  6915 I SmartPower: com.xiaomi.aiservice:ocrExp/10428(0): -1->background(0ms) R(become background) adj=-10000.
+11-15 10:05:19.908  1821  6915 I ActivityManager: Posting procStart msg for 0:com.xiaomi.aiservice:ocrExp/u0a428
+11-15 10:05:19.909  1821  6915 D ActivityManager: Logging bindService for com.xiaomi.aiservice, stopped=false, firstLaunch=false
+11-15 10:05:19.927  1821  2043 I am_proc_start: [0,17981,10428,com.xiaomi.aiservice:ocrExp,service,{com.xiaomi.aiservice/com.xiaomi.aiservice.multiprocess.OcrExpService}]
+11-15 10:05:19.928  1821  2043 I ActivityManager: Start proc 17981:com.xiaomi.aiservice:ocrExp/u0a428 for service {com.xiaomi.aiservice/com.xiaomi.aiservice.multiprocess.OcrExpService} caller=com.xiaomi.aicr
+11-15 10:05:19.948  1821  6915 D MiuiForceVkService: shouldUseVk, pkg=com.xiaomi.aiservice useVk 0
+11-15 10:05:19.952  1821  6915 I am_proc_bound: [0,17981,com.xiaomi.aiservice:ocrExp]
+11-15 10:05:19.973 17981 17995 D ActivityThread: the event that target app starts is : AppLaunchEvent{mType='441', mProcessName='com.xiaomi.aiservice:ocrExp', mPackageName='com.xiaomi.aiservice', mIsMainProcess='false', mVersionCode='310067', mVersionName='', mLaunchTime='2026-11-15'}
+11-15 10:05:19.991  1821  3286 D ActivityManager: [xiaomi_power]requestBind IntentBindRecord{5fb2c6 CR com.xiaomi.aiservice/.multiprocess.OcrExpService:act=com.xiaomi.aiservice.multiprocess.OCREXP id=20261115100519902 xflg=0x4}: requested=false rebind=false
+11-15 10:05:20.008  1821  6915 D ActivityManager: [xiaomi_power]requestBind IntentBindRecord{af4104d CR com.xiaomi.aiservice/.core.AICoreService:act=com.xiaomi.aiservice.AI_CORE id=20261115100520005 xflg=0x4}: requested=false rebind=false
+11-15 10:05:20.008  1821  6915 D ActivityManager: Logging bindService for com.xiaomi.aiservice, stopped=false, firstLaunch=false
+11-15 10:05:20.205 17981 17981 I auditd  : type=1400 audit(0.0:768593): avc:  denied  { search } for  comm="binder:17981_1" name="block" dev="tmpfs" ino=11 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:block_device:s0 tclass=dir permissive=0 app=com.xiaomi.aiservice
+11-15 10:05:20.205 17981 17981 I auditd  : type=1400 audit(0.0:768594): avc:  denied  { search } for  comm="binder:17981_1" name="block" dev="tmpfs" ino=11 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:block_device:s0 tclass=dir permissive=0 app=com.xiaomi.aiservice
+11-15 10:05:20.205 17981 17981 I auditd  : type=1400 audit(0.0:768595): avc:  denied  { search } for  comm="binder:17981_1" name="block" dev="tmpfs" ino=11 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:block_device:s0 tclass=dir permissive=0 app=com.xiaomi.aiservice
+11-15 10:05:20.498  1821  2042 D BroadcastQueue: Logging broadcast for com.xiaomi.aiservice, stopped=false, firstLaunch=false
+11-15 10:05:20.677 17981 17981 I auditd  : type=1400 audit(0.0:768596): avc:  denied  { search } for  comm="binder:17981_1" name="block" dev="tmpfs" ino=11 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:block_device:s0 tclass=dir permissive=0 app=com.xiaomi.aiservice
+11-15 10:05:20.677 17981 17981 I auditd  : type=1400 audit(0.0:768597): avc:  denied  { search } for  comm="binder:17981_1" name="block" dev="tmpfs" ino=11 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:block_device:s0 tclass=dir permissive=0 app=com.xiaomi.aiservice
+11-15 10:05:20.677 17981 17981 I auditd  : type=1400 audit(0.0:768598): avc:  denied  { search } for  comm="binder:17981_1" name="block" dev="tmpfs" ino=11 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:block_device:s0 tclass=dir permissive=0 app=com.xiaomi.aiservice
+11-15 10:05:21.173 17868 17892 W BpBinder: PerfMonitor binderTransact: time=1057ms interface=com.xiaomi.taiyi.sdk.transfer.core.IAIManager code=3
+11-15 10:05:22.253 17868 17892 W BpBinder: PerfMonitor binderTransact: time=1072ms interface=com.xiaomi.taiyi.sdk.transfer.core.IAIAbility code=13
+11-15 10:05:22.269  1821  4038 D MiuiEmbeddingWindow: blacklistedAppRunningOnPhone: package=com.xiaomi.aiserviceisNotProjeciton=true isHavingJeppackDisabledConfig=false isRunningOnPhone=true isAppleConnection=false
+11-15 10:05:22.269  1821  4038 D MiuiEmbeddingWindow: MiuiEmbeddingWindowService: updateApplicationInfo for com.xiaomi.aiservice, blacklistedAppRunningOnPhone updated: clear
+11-15 10:05:22.270  1821  4038 I ActivityManager: Posting procStart msg for 0:com.xiaomi.aiservice:tag/u0a428
+11-15 10:05:22.271  1821  4038 D ActivityManager: Logging bindService for com.xiaomi.aiservice, stopped=false, firstLaunch=false
+11-15 10:05:22.282  1821  2043 I am_proc_start: [0,18051,10428,com.xiaomi.aiservice:tag,service,{com.xiaomi.aiservice/com.xiaomi.aiservice.multiprocess.TagService}]
+11-15 10:05:22.283  1821  2043 I ActivityManager: Start proc 18051:com.xiaomi.aiservice:tag/u0a428 for service {com.xiaomi.aiservice/com.xiaomi.aiservice.multiprocess.TagService} caller=com.xiaomi.aicr
+11-15 10:05:22.305  1821  4038 D MiuiForceVkService: shouldUseVk, pkg=com.xiaomi.aiservice useVk 0
+11-15 10:05:22.310  1821  4038 I am_proc_bound: [0,18051,com.xiaomi.aiservice:tag]
+11-15 10:05:22.310  1821  4038 I SmartPower: com.xiaomi.aiservice:tag/10428(18051): died->background(69215600ms) R(process start ) adj=-10000.
+11-15 10:05:22.335 18051 18070 D ActivityThread: the event that target app starts is : AppLaunchEvent{mType='441', mProcessName='com.xiaomi.aiservice:tag', mPackageName='com.xiaomi.aiservice', mIsMainProcess='false', mVersionCode='310067', mVersionName='', mLaunchTime='2026-11-15'}
+11-15 10:05:22.345  1821  4038 D ActivityManager: [xiaomi_power]requestBind IntentBindRecord{ffc0f8 CR com.xiaomi.aiservice/.multiprocess.TagService:act=com.xiaomi.aiservice.multiprocess.TAG id=20261115100522266 xflg=0x4}: requested=false rebind=false
+11-15 10:05:22.352  1821  6862 D ActivityManager: Logging bindService for com.xiaomi.aiservice, stopped=false, firstLaunch=false
+11-15 10:05:22.353  1821  6862 D ActivityManager: [xiaomi_power]requestBind IntentBindRecord{e615828 CR com.xiaomi.aiservice/.core.AICoreService:act=com.xiaomi.aiservice.AI_CORE id=20261115100522352 xflg=0x4}: requested=false rebind=false
+11-15 10:05:22.849  1821  2042 D BroadcastQueue: Logging broadcast for com.xiaomi.aiservice, stopped=false, firstLaunch=false
+11-15 10:05:23.206 17868 17892 W BpBinder: PerfMonitor binderTransact: time=265ms interface=com.xiaomi.taiyi.sdk.transfer.core.IAIAbility code=13
+11-15 10:05:24.141 17868 17892 W BpBinder: PerfMonitor binderTransact: time=931ms interface=com.xiaomi.taiyi.sdk.transfer.core.IAIAbility code=13
+11-15 10:05:25.354  1821  2524 I SmartPower: com.xiaomi.aiservice:ocrExp/10428(17981): background->idle(5448ms) R(service end com.xiaomi.aiservice/.multiprocess.TagService) adj=200.
+11-15 10:05:25.354  1821  2524 I SmartPower: com.xiaomi.aiservice/10428(17902): background->idle(7709ms) R(service end com.xiaomi.aiservice/.multiprocess.TagService) adj=200.
+11-15 10:05:25.354  1821  2524 I SmartPower: com.xiaomi.aiservice:tag/10428(18051): background->idle(3044ms) R(service end com.xiaomi.aiservice/.multiprocess.TagService) adj=905.
+11-15 10:05:29.988  1821  3198 I ActivityManager: Process com.xiaomi.aiservice:tag (pid 18051) has died: cch+5 CEM 
+11-15 10:05:29.988  1821  3198 I am_proc_died: [0,18051,com.xiaomi.aiservice:tag,905,19]
+11-15 10:05:29.991  1821  3198 I ActivityManager: note: ProcessRecord{53aae47 18051:com.xiaomi.aiservice:tag/u0a428} died, saving the exit info
+11-15 10:05:29.991  1821  2047 I ActivityManager: Update process exit info for com.xiaomi.aiservice(18051/u10428)
+11-15 10:05:55.623  1821  2036 I am_pss  : [17902,10428,com.xiaomi.aiservice,12746752,7819264,252928,109924352,0,4,45]
+11-15 10:06:22.883  1821  2072 I am_cpu  : [17902,10428,iaomi.aiservice,0,0,0]
+11-15 10:07:37.353  1821  2072 I am_cpu  : [17902,10428,iaomi.aiservice,65158,0,50]
+11-15 10:07:46.475  1821  4038 I ActivityManager: Process com.xiaomi.aiservice:ocrExp (pid 17981) has died: prcp FGS 
+11-15 10:07:46.476  1821  4038 I am_proc_died: [0,17981,com.xiaomi.aiservice:ocrExp,200,4]
+11-15 10:07:46.476  1821  4038 I SmartPower: com.xiaomi.aiservice/10428(17902): idle->background(119644ms) R(service unbind com.xiaomi.aiservice/.core.AICoreService) adj=200.
+11-15 10:07:46.478  1821  4038 W ActivityManager: Scheduling restart of crashed service com.xiaomi.aiservice/.multiprocess.OcrExpService in 1000ms for connection
+11-15 10:07:46.478  1821  4038 I am_schedule_service_restart: [0,com.xiaomi.aiservice/.multiprocess.OcrExpService,1000]
+11-15 10:07:46.481  1821  4038 I ActivityManager: note: ProcessRecord{8138433 17981:com.xiaomi.aiservice:ocrExp/u0a428} died, saving the exit info
+11-15 10:07:46.488  1821  2047 I ActivityManager: Update process exit info for com.xiaomi.aiservice(17981/u10428)
+11-15 10:07:49.942  1821  2524 I SmartPower: com.xiaomi.aiservice/10428(17902): background->idle(3004ms) R(service unbind com.xiaomi.aiservice/.core.AICoreService) adj=905.
+11-15 10:11:54.935  1821  2072 I am_cpu  : [17902,10428,iaomi.aiservice,208261,10,170]
+11-15 10:13:07.828  1821  2036 I am_pss  : [17902,10428,com.xiaomi.aiservice,16048128,14098432,260096,109793280,0,19,22]
+11-15 10:14:01.781  1821  2072 I am_cpu  : [17902,10428,iaomi.aiservice,122373,10,70]
+11-15 10:14:51.397  1821  2036 I am_pss  : [17902,10428,com.xiaomi.aiservice,14642176,7077888,6336512,100360192,0,19,8]
+11-15 10:17:19.637  1821  3235 I SmartPower: com.xiaomi.aiservice/10428(17902): idle->background(517826ms) R(content provider start ContentProviderRecord{13e63c0 u0 com.xiaomi.aiservice/.download.DownloadProvider}) adj=0.
+11-15 10:17:22.639  1821  2524 I SmartPower: com.xiaomi.aiservice/10428(17902): background->idle(3001ms) R(content provider start ContentProviderRecord{13e63c0 u0 com.xiaomi.aiservice/.download.DownloadProvider}) adj=0.
+11-15 10:31:22.576  1821  6863 W ActivityManager: Unable to start service Intent { xflg=0x4 pkg=com.miui.securitycenter cmp=com.miui.securitycenter/com.miui.apppredict.service.AiService } U=0: not found
+11-15 10:31:28.285  1821  6863 I SmartPower: com.xiaomi.aiservice/10428(17902): idle->background(845646ms) R(content provider start ContentProviderRecord{8e3d636 u0 com.xiaomi.aiservice/.core.AICoreProvider}) adj=100.
+11-15 10:31:31.287  1821  2524 I SmartPower: com.xiaomi.aiservice/10428(17902): background->idle(3003ms) R(content provider start ContentProviderRecord{8e3d636 u0 com.xiaomi.aiservice/.core.AICoreProvider}) adj=200.
+11-15 10:32:27.119  1821  2072 I am_cpu  : [17902,10428,iaomi.aiservice,696383,0,50]
+11-15 10:33:49.980  1821  2072 I am_cpu  : [17902,10428,iaomi.aiservice,74182,10,70]
+11-15 10:34:47.690  1821  2935 I SmartPower: com.xiaomi.aiservice/10428(17902): idle->background(181188ms) R(content provider start ContentProviderRecord{8e3d636 u0 com.xiaomi.aiservice/.core.AICoreProvider}) adj=0.
+11-15 10:34:50.691  1821  2524 I SmartPower: com.xiaomi.aiservice/10428(17902): background->idle(3001ms) R(content provider start ContentProviderRecord{8e3d636 u0 com.xiaomi.aiservice/.core.AICoreProvider}) adj=200.
+11-15 10:36:17.673 21645  5641 I IconCustomizer: find better bitmap : 470px, for com.xiaomi.aiserviceat density :480dpi, the device is : 422dpi
+11-15 10:36:17.675 21645  5641 D IconCustomizer: Generate customized icon for com.xiaomi.aiservice.png, true
+11-15 10:36:17.675 21645  5641 I IconCustomizer: composeIconWithTrans FullMask: for com.xiaomi.aiservice.png
+11-15 10:36:39.912  1821  2042 I am_cpu  : [17902,10428,iaomi.aiservice,168035,30,110]
+11-15 10:37:06.149 17902 18216 D JavaheapMonitor: Java heap used=2M max=512M, proc: com.xiaomi.aiservice
+11-15 10:38:58.897  1821  3160 W ActivityManager: Unable to start service Intent { xflg=0x4 pkg=com.miui.securitycenter cmp=com.miui.securitycenter/com.miui.apppredict.service.AiService } U=0: not found
+11-15 10:39:48.824 17902 18216 D JavaheapMonitor: Java heap used=2M max=512M, proc: com.xiaomi.aiservice
+11-15 10:40:21.390  6980  6980 I adbd    : adbd service requested 'shell,v2,raw:find /sdcard/Android/data/com.xiaomi.aiservice/files/download -name '*.taiyi' -exec ls -la {} \;'
+11-15 10:40:21.564  6980  6980 I adbd    : adbd service requested 'shell,v2,raw:find /sdcard/Android/data/com.xiaomi.aiservice/files/download -name '*.taiyi' | sed 's|/[^/]*$||' | sort | uniq -c; du -sh /sdcard/Android/data/com.xiaomi.aiservice/files/download; df -h /sdcard | tail -1'
+11-15 10:40:21.669  6980  6980 I adbd    : adbd service requested 'shell,v2,raw:find /sdcard/Android/data/com.xiaomi.aiservice/files/download -name '*.taiyi' | head -20 | xargs md5sum'
+11-15 10:40:22.412  6980  6980 I adbd    : adbd service requested 'shell,v2,raw:dumpsys package com.xiaomi.aiservice | grep -oE '/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/[a-z0-9_]+/[0-9]+/[^ ]*' | sort -u'
+11-15 10:40:22.503  2534  3450 I artd    : GetBestInfo: odex in dalvik-cache (/data/dalvik-cache/arm64/product@priv-app@AIService@AIService.apk@classes.dex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+11-15 10:40:22.504  2534  3450 I artd    : GetBestInfo: odex in dalvik-cache (/data/dalvik-cache/arm64/product@priv-app@AIService@AIService.apk@classes.dex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+11-15 10:40:22.510  2534  4488 I artd    : GetBestInfo: odex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ocr/1/oat/arm64/plugin-ocr-ocr-1.odex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.510  2534  4488 I artd    : GetBestInfo: odex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ocr/1/oat/arm64/plugin-ocr-ocr-1.odex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.519  2534  4488 I artd    : GetBestInfo: vdex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/tag/7/oat/arm64/plugin-tag-tag-2.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.524  2534  4488 I artd    : GetBestInfo: vdex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/iqa/1/oat/arm64/plugin-iqa-iqa-1.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.528  2534  4488 I artd    : GetBestInfo: vdex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ocr_qnn/1/oat/arm64/plugin-ocr-ocr_qnn-1.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.531  2534  4488 I artd    : GetBestInfo: vdex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/framework_compat/5/oat/arm64/plugin-framework-framework_compat-5.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.537  2534  4488 I artd    : GetBestInfo: odex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ai_search_mtk/7/oat/arm64/plugin-aisearch-aisearch_mtk-3.odex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.537  2534  4488 I artd    : GetBestInfo: odex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ai_search_mtk/7/oat/arm64/plugin-aisearch-aisearch_mtk-3.odex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.542  2534  4488 I artd    : GetBestInfo: vdex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ocr_plugin_baidu/2/oat/arm64/plugin-ocr-ocr_baidu-1.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.544  2534  4488 I artd    : GetBestInfo: vdex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/segment_v3_npu/3/oat/arm64/plugin-segment-segment_v3_npu-3.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.565  2534  3450 I artd    : GetBestInfo: odex in dalvik-cache (/data/dalvik-cache/arm64/product@priv-app@AIService@AIService.apk@classes.dex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+11-15 10:40:22.565  2534  3450 I artd    : GetBestInfo: odex in dalvik-cache (/data/dalvik-cache/arm64/product@priv-app@AIService@AIService.apk@classes.dex) is kOatUpToDate with filter 'speed-profile' executable 'false'
+11-15 10:40:22.566  2534  4488 I artd    : GetBestInfo: odex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ocr/1/oat/arm64/plugin-ocr-ocr-1.odex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.567  2534  4488 I artd    : GetBestInfo: odex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ocr/1/oat/arm64/plugin-ocr-ocr-1.odex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.567  2534  4488 I artd    : GetBestInfo: vdex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/tag/7/oat/arm64/plugin-tag-tag-2.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.568  2534  3450 I artd    : GetBestInfo: vdex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/iqa/1/oat/arm64/plugin-iqa-iqa-1.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.569  2534  3450 I artd    : GetBestInfo: vdex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ocr_qnn/1/oat/arm64/plugin-ocr-ocr_qnn-1.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.570  2534  3450 I artd    : GetBestInfo: vdex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/framework_compat/5/oat/arm64/plugin-framework-framework_compat-5.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.571  2534  4488 I artd    : GetBestInfo: odex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ai_search_mtk/7/oat/arm64/plugin-aisearch-aisearch_mtk-3.odex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.571  2534  4488 I artd    : GetBestInfo: odex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ai_search_mtk/7/oat/arm64/plugin-aisearch-aisearch_mtk-3.odex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.572  2534  3450 I artd    : GetBestInfo: vdex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ocr_plugin_baidu/2/oat/arm64/plugin-ocr-ocr_baidu-1.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.572  2534  4488 I artd    : GetBestInfo: vdex next to the dex file (/data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/segment_v3_npu/3/oat/arm64/plugin-segment-segment_v3_npu-3.vdex) is kOatUpToDate with filter 'verify' executable 'false'
+11-15 10:40:22.622  6980  6980 I adbd    : adbd service requested 'shell,v2,raw:logcat -d -b all -v threadtime | grep -i -E 'taiyi|aiservice' | tail -800'

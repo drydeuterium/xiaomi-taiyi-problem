@@ -1,0 +1,65 @@
+原因に関わる logcat 抜粋（端末実機で取得）
+
+======================================================================
+1. 正常系のライフサイクル（別リソース framework_f3 の例 / 2026-09-30 22:04:15）
+   ダウンロード → インストール → ステージ済みファイル削除 まで完走している
+======================================================================
+
+22:04:15.018 W Taiyi-Service(aiservice:main)-AIConfigurations: statisticsResource framework_f3 7 required but not found!
+22:04:15.030 I Taiyi-Download-TaiyiDownloader: downloadFileInner start: DownloadFile(id=framework_f3:7, name=plugin-framework-framework_f3-7.taiyi, url=https://****/…)
+22:04:15.057 I Taiyi-Download-MIDownloadManager: start framework_f3:7 enqueue = 16054
+22:04:15.062 D DownloadManager_Job: use xunlei (false) , id=16054,tid=260 frompackage=com.xiaomi.aiservice,uri=https://ai-model-cdn-intl.engine.miui.com/ai-taiyi-platform-bucket/deploy/plugin/6c1f63b9-bb4a-4204-bb1a-49610b7577e8/plugin-framework-framework_f3-7.taiyi,filename=null
+22:04:15.403 I DownloadThread: [16054] executeDownload responseCode = 200,https://ai-model-cdn-intl.engine.miui.com/ai-taiyi-platform-bucket/deploy/plugin/6c1f63b9-bb4a-4204-bb1a-49610b7577e8/plugin-framework-framework_f3-7.taiyi
+22:04:15.572 E DatabaseUtils: java.lang.IllegalArgumentException: Inserting private file: Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/framework_f3/7/ is not allowed.
+22:04:15.573 W DownloadManager: Error updateMediaProvider, uri: null, values: owner_package_name=com.xiaomi.aiservice volume_name=external_primary _display_name=plugin-framework-framework_f3-7.taiyi mime_type=application/octet-stream _data=/storage/emulated/0/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/framework_f3/7/plugin-framework-framework_f3-7.taiyi
+22:04:16.101 I Taiyi-Download-MIDownloadManager: onReceive 16054 DownloadEntity(fileId=framework_f3:7, downloadId=16054, state=SUCCESS, code=0, fileName=plugin-framework-framework_f3-7.taiyi, totalSize=2252013, offsetSize=2252013, sha256=8ef456d338d79d2da331b877e75a7167ada22cfe61df2d1b49071529d4ad3237, createTime=1790773455031, modifyTime=1790773455548, cost=1040, times=1)
+22:04:16.101 I Taiyi-Download-TaiyiDownloader: onFileComplete: framework_f3:7, SUCCESS, 0. previous = PREPARE
+22:04:16.130 I Taiyi-Service(aiservice:main)-AIResources: installSync Install[framework_f3, 7] result: (AIResource(framework_f3, 7, PLUGIN, SHARED), 0)
+22:04:16.131 I Taiyi-Download-TaiyiDownloader: cancelFileInner: framework_f3:7. null
+22:04:16.141 V DownloadManager: Deleting /storage/emulated/0/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/framework_f3/7/plugin-framework-framework_f3-7.taiyi via provider delete
+22:04:16.149 I Taiyi-Download-MIDownloadManager: remove framework_f3:7 1 DownloadEntity(fileId=framework_f3:7, downloadId=16054, …)
+
+======================================================================
+2. 解消しないリソース（失敗ループの起点）
+   「required but not found」が繰り返し出続ける = 何度でもダウンロードが再投入される
+======================================================================
+
+09-30 22:04:15.018 W AIConfigurations: statisticsResource framework_f3 7 required but not found!
+09-30 22:04:15.025 W AIConfigurations: statisticsResource framework_f3 7 required but not found!
+
+  11-15 時点では wps が該当（インストール先ディレクトリが存在しないため解消しない）
+  例: /data/user_de/0/com.xiaomi.aiservice/taiyi/plugin/ には
+      ai_search_mtk/7, framework_compat/5, iqa/1, ocr/1, ocr_plugin_baidu/2,
+      ocr_qnn/1, segment_v3_npu/3, tag/7 はあるが wps は無い
+
+======================================================================
+3. 再ダウンロードの判定（アプリ起動・ネットワーク変化・ジョブ）
+======================================================================
+
+Taiyi-Service(aiservice:main)-DownloadManager: checkDownloadAll for app_launch update 10723
+Taiyi-Service(aiservice:main)-DownloadManager: checkDownloadAll for app_launch skip by wifi or vpn unavailable!
+Taiyi-Download-TaiyiDownloader: downloadType is 0, no need to download
+
+JobScheduler:
+  JOB #u0a428/2001: com.xiaomi.aiservice/.AIJobService   PERSISTED
+    Requires: charging=true batteryNotLow=true deviceIdle=true
+    Network type: WIFI
+    Backoff: policy=1 initial=+30s0ms
+
+======================================================================
+4. DownloadManager 側の記録（登録元の確認）
+======================================================================
+
+  Download #16053: _id=16053 uri=https://www.gstatic.com/… uid=1000 …
+  Download #16054: (framework_f3 のダウンロード)  ← com.xiaomi.aiservice が採番した ID
+
+  dumpsys download はこの ROM に存在しないため、以下で代替取得した:
+    adb shell "dumpsys activity provider com.android.providers.downloads"
+
+======================================================================
+5. 参考: ファイルが連番になる仕組み（DownloadProvider 側の実装文字列）
+======================================================================
+
+  GenerateAvailableFilenameLocked / isFilenameAvailableLocked
+  "Failed to generate an available filename"
+  com.michael.corelib.filedownload.FileDownloader$DownloadFilenameCreateListener  (Xunlei 系エンジン)

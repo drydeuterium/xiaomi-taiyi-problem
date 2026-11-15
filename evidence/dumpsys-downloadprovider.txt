@@ -1,0 +1,72 @@
+﻿PROVIDER ContentProviderRecord{a59c16f u0 com.android.providers.downloads/.DownloadProvider} pid=24833
+    Client:
+      Downloads updated in last hour:
+      old version: 99   new version: 123   db_version:123
+      Download #16053:
+      _id=16053 uri=https://www.gstatic.com/android/certificate_transparency/v3/log_list.ctfb method=0 entity=null 
+      no_integrity=null hint=null otaupdate=null _data=/data/data/com.android.providers.downloads/cache/log_list-34.html 
+      mimetype=text/html destination=1 no_system=null visibility=2 control=null status=200 numfailed=0 lastmod=1790763243324 
+      notificationpackage=android notificationclass=null notificationextras=null useragent=null referer=null 
+      total_bytes=18064 current_bytes=18064 etag=null uid=1000 otheruid=null title=log_list-34.html description= scanned=2 
+      is_public_api=1 allow_roaming=0 allowed_network_types=-1 is_visible_in_downloads_ui=0 bypass_recommended_size_limit=0 
+      mediaprovider_uri=null deleted=0 errorMsg=null allow_metered=1 allow_write=0 flags=1 serverIp=null mediastore_uri=null 
+      download_extra2= xl_task_open_mark=0 
+      Download #16052:
+      _id=16052 uri=https://www.gstatic.com/android/certificate_transparency/v2/log_list.json method=0 entity=null 
+      no_integrity=null hint=null otaupdate=null _data=/data/data/com.android.providers.downloads/cache/log_list-15.json 
+      mimetype=application/json destination=1 no_system=null visibility=2 control=null status=200 numfailed=0 
+      lastmod=1790763243346 notificationpackage=android notificationclass=null notificationextras=null useragent=null 
+      referer=null total_bytes=33644 current_bytes=33644 etag=null uid=1000 otheruid=null title=log_list-15.json 
+      description= scanned=2 is_public_api=1 allow_roaming=0 allowed_network_types=-1 is_visible_in_downloads_ui=0 
+      bypass_recommended_size_limit=0 mediaprovider_uri=null deleted=0 errorMsg=null allow_metered=1 allow_write=0 flags=1 
+      serverIp=null mediastore_uri=null download_extra2= xl_task_open_mark=0 
+      Download #16051:
+      _id=16051 uri=https://www.gstatic.com/android/certificate_transparency/v3/log_list.sig method=0 entity=null 
+      no_integrity=null hint=null otaupdate=null _data=/data/data/com.android.providers.downloads/cache/log_list-46.html 
+      mimetype=text/html destination=1 no_system=null visibility=2 control=null status=200 numfailed=0 lastmod=1790763243014 
+      notificationpackage=android notificationclass=null notificationextras=null useragent=null referer=null total_bytes=684 
+      current_bytes=0 etag=null uid=1000 otheruid=null title=log_list-46.html description= scanned=2 is_public_api=1 
+      allow_roaming=0 allowed_network_types=-1 is_visible_in_downloads_ui=0 bypass_recommended_size_limit=0 
+      mediaprovider_uri=null deleted=0 errorMsg=null allow_metered=1 allow_write=0 flags=1 serverIp=null mediastore_uri=null 
+      download_extra2= xl_task_open_mark=0 
+      Download #16050:
+      _id=16050 uri=https://www.gstatic.com/android/certificate_transparency/v2/log_list.sig method=0 entity=null 
+      no_integrity=null hint=null otaupdate=null _data=/data/data/com.android.providers.downloads/cache/log_list-16.html 
+      mimetype=text/html destination=1 no_system=null visibility=2 control=null status=200 numfailed=0 lastmod=1790763242996 
+      notificationpackage=android notificationclass=null notificationextras=null useragent=null referer=null total_bytes=684 
+      current_bytes=0 etag=null uid=1000 otheruid=null title=log_list-16.html description= scanned=2 is_public_api=1 
+      allow_roaming=0 allowed_network_types=-1 is_visible_in_downloads_ui=0 bypass_recommended_size_limit=0 
+      mediaprovider_uri=null deleted=0 errorMsg=null allow_metered=1 allow_write=0 flags=1 serverIp=null mediastore_uri=null 
+      download_extra2= xl_task_open_mark=0 
+      Download #16049:
+      _id=16049 uri=https://www.gstatic.com/android/certificate_transparency/log_list.pub method=0 entity=null 
+      no_integrity=null hint=null otaupdate=null _data=/data/data/com.android.providers.downloads/cache/log_list-44.html 
+      mimetype=text/html destination=1 no_system=null visibility=2 control=null status=200 numfailed=0 lastmod=1790763242419 
+      notificationpackage=android notificationclass=null notificationextras=null useragent=null referer=null total_bytes=736 
+      current_bytes=736 etag=null uid=1000 otheruid=null title=log_list-44.html description= scanned=2 is_public_api=1 
+      allow_roaming=0 allowed_network_types=-1 is_visible_in_downloads_ui=0 bypass_recommended_size_limit=0 
+      mediaprovider_uri=null deleted=0 errorMsg=null allow_metered=1 allow_write=0 flags=1 serverIp=null mediastore_uri=null 
+      download_extra2= xl_task_open_mark=0 
+      dumpVersion:
+      miuiVersion=rothko/stable/OS3.0.4.0.WNNJPSB/16/JP
+      appVersion=250207109
+      recommendedMaxBytes=2147483647,MaxBytesOverMobile=9223372036854775807
+      downSpeed=17254Kbps,upSpeed=17254Kbps
+
+PROVIDER ContentProviderRecord{fa894f0 u11 com.android.providers.downloads/.DownloadProvider} pid=8198
+    Client:
+      Downloads updated in last hour:
+      old version: 99   new version: 123   db_version:123
+      dumpVersion:
+      miuiVersion=rothko/stable/OS3.0.4.0.WNNJPSB/16/JP
+      appVersion=250207109
+      recommendedMaxBytes=2147483647,MaxBytesOverMobile=9223372036854775807
+      downSpeed=17254Kbps,upSpeed=17254Kbps
+
+PROVIDER ContentProviderRecord{6ab1242 u0 com.android.providers.downloads/.DownloadStorageProvider} pid=24833
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{3024bc6 u11 com.android.providers.downloads/.DownloadStorageProvider} pid=8198
+    Client:
+      nothing to dump

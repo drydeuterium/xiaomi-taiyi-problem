@@ -1,0 +1,10 @@
+JOB #u0a428/2001: cd96ee3 com.xiaomi.aiservice/.AIJobService
+    u0a428 tag=*job*r/com.xiaomi.aiservice/.AIJobService
+    Source: uid=u0a428 user=0 pkg=com.xiaomi.aiservice
+    JobInfo:
+      Service: com.xiaomi.aiservice/.AIJobService
+      PERSISTED
+      Priority: 300 [DEFAULT]
+      Requires: charging=true batteryNotLow=true deviceIdle=true
+      Network type: NetworkRequest [ NONE id=0, [ Transports: WIFI Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10428 UnderlyingNetworks: Null] ]
+      Backoff: policy=1 initial=+30s0ms

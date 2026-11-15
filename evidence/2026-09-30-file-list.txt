@@ -1,0 +1,369 @@
+実際のファイル一覧 (ls -la 生出力) 2026-09-30 取得
+取得コマンド:
+  adb shell "cd /sdcard/Android/data/com.xiaomi.aiservice/files/download && ls -laR ."
+
+======================================================================
+/sdcard/Android/data/com.xiaomi.aiservice/files/download:
+total 9
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 .
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+drwxrws--- 4 u0_a428 ext_data_rw 3452 2026-05-11 12:46 taiyi
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi:
+total 12
+drwxrws--- 4 u0_a428 ext_data_rw 3452 2026-05-11 12:46 .
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+drwxrws--- 4 u0_a428 ext_data_rw 3452 2026-05-11 12:46 model
+drwxrws--- 6 u0_a428 ext_data_rw 3452 2026-05-11 12:46 plugin
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/model:
+total 12
+drwxrws--- 4 u0_a428 ext_data_rw 3452 2026-05-11 12:46 .
+drwxrws--- 4 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ai_search_model_npu_mtk_6989
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ocr_model_baidu
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/model/ai_search_model_npu_mtk_6989:
+total 9
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 .
+drwxrws--- 4 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+drwxrws--- 2 u0_a428 ext_data_rw 3452 2026-07-02 23:31 3
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/model/ai_search_model_npu_mtk_6989/3:
+total 6
+drwxrws--- 2 u0_a428 ext_data_rw 3452 2026-07-02 23:31 .
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/model/ocr_model_baidu:
+total 9
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 .
+drwxrws--- 4 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+drwxrws--- 2 u0_a428 ext_data_rw 3452 2026-07-02 23:31 1
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/model/ocr_model_baidu/1:
+total 6
+drwxrws--- 2 u0_a428 ext_data_rw 3452 2026-07-02 23:31 .
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin:
+total 18
+drwxrws--- 6 u0_a428 ext_data_rw 3452 2026-05-11 12:46 .
+drwxrws--- 4 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ai_search_mtk
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 iqa
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ocr_plugin_baidu
+drwxrws--- 5 u0_a428 ext_data_rw 3452 2026-09-19 18:54 tag
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/ai_search_mtk:
+total 9
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 .
+drwxrws--- 6 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+drwxrws--- 2 u0_a428 ext_data_rw 3452 2026-07-02 23:31 5
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/ai_search_mtk/5:
+total 6
+drwxrws--- 2 u0_a428 ext_data_rw 3452 2026-07-02 23:31 .
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/iqa:
+total 9
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 .
+drwxrws--- 6 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+drwxrws--- 2 u0_a428 ext_data_rw 3452 2026-07-02 23:31 1
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/iqa/1:
+total 6
+drwxrws--- 2 u0_a428 ext_data_rw 3452 2026-07-02 23:31 .
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/ocr_plugin_baidu:
+total 9
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 .
+drwxrws--- 6 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+drwxrws--- 2 u0_a428 ext_data_rw 3452 2026-07-02 23:31 2
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/ocr_plugin_baidu/2:
+total 6
+drwxrws--- 2 u0_a428 ext_data_rw 3452 2026-07-02 23:31 .
+drwxrws--- 3 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/tag:
+total 21
+drwxrws--- 5 u0_a428 ext_data_rw 3452 2026-09-19 18:54 .
+drwxrws--- 6 u0_a428 ext_data_rw 3452 2026-05-11 12:46 ..
+drwxrws--- 2 u0_a428 ext_data_rw 3452 2026-07-02 23:31 2
+drwxrws--- 2 u0_a428 ext_data_rw 8192 2026-09-19 18:54 5
+drwxrws--- 2 u0_a428 ext_data_rw 4096 2026-09-24 15:14 7
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/tag/2:
+total 6
+drwxrws--- 2 u0_a428 ext_data_rw 3452 2026-07-02 23:31 .
+drwxrws--- 5 u0_a428 ext_data_rw 3452 2026-09-19 18:54 ..
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/tag/5:
+total 5234955
+drwxrws--- 2 u0_a428 ext_data_rw     8192 2026-09-19 18:54 .
+drwxrws--- 5 u0_a428 ext_data_rw     3452 2026-09-19 18:54 ..
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:18 tag2-1.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:18 tag2-10.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:29 tag2-100.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-101.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-103.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:30 tag2-104.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-30 16:25 tag2-105.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:25 tag2-106.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:06 tag2-107.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-29 16:16 tag2-108.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:27 tag2-109.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-11.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:30 tag2-110.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:26 tag2-111.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-30 16:24 tag2-112.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-29 16:15 tag2-113.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-114.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:29 tag2-115.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:07 tag2-117.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:28 tag2-118.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-29 16:16 tag2-119.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-18 20:38 tag2-12.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:29 tag2-120.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-30 16:24 tag2-121.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-125.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:26 tag2-126.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:27 tag2-128.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-29 16:16 tag2-129.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-08 16:19 tag2-13.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:28 tag2-131.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:25 tag2-133.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:29 tag2-134.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-135.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-29 16:16 tag2-136.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:25 tag2-137.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:29 tag2-138.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:30 tag2-139.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-08 16:19 tag2-14.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:27 tag2-140.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:26 tag2-141.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:27 tag2-145.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-146.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-30 16:25 tag2-147.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-30 16:25 tag2-148.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-15.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:29 tag2-150.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:27 tag2-151.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:25 tag2-152.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:26 tag2-153.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:29 tag2-154.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:25 tag2-155.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-31 12:47 tag2-159.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-16.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-30 16:25 tag2-161.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:09 tag2-163.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:28 tag2-168.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-17.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:26 tag2-170.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:27 tag2-171.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-19 18:54 tag2-173.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-19 18:54 tag2-174.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:06 tag2-176.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:06 tag2-177.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:06 tag2-178.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-18 20:38 tag2-18.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:07 tag2-180.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:26 tag2-182.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-19 18:54 tag2-186.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:18 tag2-19.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:28 tag2-197.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:28 tag2-199.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:18 tag2-2.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:18 tag2-20.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:28 tag2-200.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:30 tag2-202.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-21.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 10:17 tag2-212.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:09 tag2-213.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:25 tag2-214.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:30 tag2-217.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-22.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-19 18:54 tag2-221.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:06 tag2-228.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:18 tag2-23.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:06 tag2-230.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:27 tag2-231.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:25 tag2-233.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:06 tag2-234.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:29 tag2-235.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 10:17 tag2-236.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-24.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:29 tag2-241.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-08 16:19 tag2-25.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-19 18:54 tag2-255.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-08 16:19 tag2-26.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:09 tag2-261.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-27.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-28.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:07 tag2-284.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-24 17:33 tag2-29.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:06 tag2-291.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:17 tag2-3.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-24 17:33 tag2-30.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-31.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-10 09:07 tag2-316.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-18 20:38 tag2-32.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-33.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-34.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-22 15:35 tag2-35.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-24 17:33 tag2-36.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-37.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-24 17:33 tag2-38.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-24 17:33 tag2-39.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:17 tag2-4.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-24 17:33 tag2-40.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-24 17:33 tag2-41.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-24 17:33 tag2-42.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-24 17:33 tag2-43.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-44.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-24 17:33 tag2-45.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-46.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-24 17:33 tag2-47.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-24 17:33 tag2-48.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-49.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:17 tag2-5.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-50.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-51.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-52.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-53.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-54.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-55.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-56.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-57.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-58.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 20:46 tag2-59.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:18 tag2-6.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-60.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-61.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-62.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-29 16:16 tag2-63.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-64.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-65.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-66.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-67.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-68.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 20:46 tag2-69.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:17 tag2-7.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-70.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-29 16:15 tag2-71.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-29 16:16 tag2-72.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-28 12:33 tag2-73.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:30 tag2-74.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:28 tag2-75.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:28 tag2-76.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-31 12:47 tag2-77.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-31 12:47 tag2-78.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:27 tag2-79.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:18 tag2-8.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-29 16:16 tag2-81.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-19 18:54 tag2-82.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:27 tag2-83.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:25 tag2-85.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 14:00 tag2-86.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-26 20:46 tag2-87.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:30 tag2-89.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:17 tag2-9.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:28 tag2-90.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:30 tag2-91.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:30 tag2-92.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-29 16:15 tag2-93.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:25 tag2-94.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:30 tag2-95.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:29 tag2-96.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:28 tag2-97.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-09-07 16:26 tag2-98.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 30424058 2026-08-07 16:18 tag2.taiyi
+
+/sdcard/Android/data/com.xiaomi.aiservice/files/download/taiyi/plugin/tag/7:
+total 6219835
+drwxrws--- 2 u0_a428 ext_data_rw     4096 2026-09-24 15:14 .
+drwxrws--- 5 u0_a428 ext_data_rw     3452 2026-09-19 18:54 ..
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:55 tag_new-1.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:58 tag_new-10.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-108.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:41 tag_new-11.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-110.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-114.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:39 tag_new-12.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-124.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-128.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:46 tag_new-13.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-136.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:58 tag_new-14.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-143.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 19:00 tag_new-15.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-157.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:58 tag_new-16.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-162.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:39 tag_new-17.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:39 tag_new-18.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:59 tag_new-19.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:55 tag_new-2.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:58 tag_new-20.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:38 tag_new-21.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:40 tag_new-22.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:38 tag_new-23.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:41 tag_new-24.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:39 tag_new-25.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:59 tag_new-26.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:43 tag_new-27.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:39 tag_new-28.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:59 tag_new-29.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:39 tag_new-3.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:41 tag_new-30.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:40 tag_new-31.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:46 tag_new-32.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:43 tag_new-33.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:45 tag_new-34.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:43 tag_new-35.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:40 tag_new-36.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-37.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:44 tag_new-38.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:43 tag_new-39.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:56 tag_new-4.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:42 tag_new-40.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:44 tag_new-41.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:44 tag_new-42.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-43.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-44.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-45.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:45 tag_new-46.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-47.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:45 tag_new-48.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-49.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:56 tag_new-5.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-20 16:46 tag_new-50.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-51.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-52.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-53.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-54.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-55.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-56.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-58.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-59.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:57 tag_new-6.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-60.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-61.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-62.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-63.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-64.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-65.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-67.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:57 tag_new-7.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-73.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-74.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-76.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-78.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:57 tag_new-8.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:04 tag_new-87.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:57 tag_new-9.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-24 15:05 tag_new-94.taiyi
+-rwxrws--- 1 u0_a428 ext_data_rw 78552271 2026-09-19 18:55 tag_new.taiyi
+
